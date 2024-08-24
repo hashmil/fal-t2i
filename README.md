@@ -40,9 +40,9 @@ This project is a Gradio-based web interface for generating images from text pro
    ```
 
 5. Set up your API key:
-   - Rename the `.env.example` file to `.env`:
+   - Copy and rename the `.env.example` file to `.env`:
      ```
-     mv .env.example .env
+     cp .env.example .env
      ```
    - Open the `.env` file and replace `your_api_key_here` with your actual FAL AI API key:
      ```
