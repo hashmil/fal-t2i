@@ -10,17 +10,20 @@ This project is a Gradio-based web interface for generating images from text pro
 ## Setup
 
 1. Clone the repository:
+
    ```
    git clone https://github.com/hashmil/fal-t2i.git
-   cd text-to-image-generator
+   cd fal-t2i
    ```
 
 2. Create a virtual environment:
+
    ```
    python3 -m venv venv
    ```
 
 3. Activate the virtual environment:
+
    - On Windows:
      ```
      venv\Scripts\activate
@@ -31,6 +34,7 @@ This project is a Gradio-based web interface for generating images from text pro
      ```
 
 4. Install the required dependencies:
+
    ```
    pip install -r requirements.txt
    ```
@@ -50,6 +54,7 @@ This project is a Gradio-based web interface for generating images from text pro
 1. Ensure your virtual environment is activated (see step 3 in Setup).
 
 2. Run the Python script:
+
    ```
    python3 main.py
    ```
