@@ -51,7 +51,7 @@ This project is a Gradio-based web interface for generating images from text pro
 
 2. Run the Python script:
    ```
-   python main.py
+   python3 main.py
    ```
 
 3. Open your web browser and go to the URL displayed in the terminal (usually `http://127.0.0.1:7860`).
