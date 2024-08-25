@@ -68,8 +68,9 @@ with gr.Blocks() as demo:
                                    value=1, step=1, label="Number of Images")
             enable_safety_checker = gr.Checkbox(
                 label="Enable Safety Checker", value=True)
-            submit_button = gr.Button("Generate Image")
+
         with gr.Column():
+            submit_button = gr.Button("Generate Image")
             image_output = gr.Image(label="Generated Image")
             log_output = gr.Textbox(label="Status", lines=2)
 
